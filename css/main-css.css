@@ -94,10 +94,10 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -178,7 +178,7 @@ ul {
 }
 
 /* End Dots  */
-/* End Global Rules */
+/* Start button go-up  */
 go-up {
     position: fixed;
     bottom: 20px;
@@ -217,6 +217,8 @@ go-up .fa-angles-up {
     align-items: center;
 }
 
+/* End button go-up  */
+/* End Global Rules */
 /* Start header  */
 .header {
     position: relative;
@@ -1134,10 +1136,10 @@ go-up .fa-angles-up {
     counter-increment: services;
     z-index: 1;
     transition: var(--main-transition);
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .services .box:hover {
@@ -1463,8 +1465,6 @@ go-up .fa-angles-up {
 .events .info .time .unit:hover span:last-child {
     border-color: var(--main-color);
 }
-
-.events .info .time .unit span {}
 
 .events .info .time .unit span:first-child {
     font-size: 35px;
@@ -2367,11 +2367,11 @@ footer .copyright {
 @keyframes arrow-right {
     100% {
         transform: translateX(-10px);
-        -webkit-transform: ;
-        -moz-transform: ;
-        -ms-transform: ;
-        -o-transform: ;
-    }
+        -webkit-transform: translateX(-10px);
+        -moz-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px);
+}
 }
 
 @keyframes flashing {
